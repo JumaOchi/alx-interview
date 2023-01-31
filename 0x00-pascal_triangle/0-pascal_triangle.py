@@ -4,6 +4,9 @@
 function definition for pascal triangle
 '''
 def pascal_triangle(n):
+    '''
+    defining pparameters for pascal triangle
+    '''
     res = [[1]]
     if (n <= 0) :
         return []
