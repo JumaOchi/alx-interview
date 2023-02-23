@@ -1,12 +1,9 @@
 #!/usr/bin/python3
-"""utf8 validation problem
-   
+"""utf8 validation problem   
 """
-from typing import List
 
 
-
-def validUTF8(data: List[int]) -> bool:
+def validUTF8(data):
     """checks if a list feed to the function are
     valid utf-8 codepoints
     """
